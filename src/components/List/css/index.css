@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background: radial-gradient(
+    ellipse,
+    rgb(83, 173, 241) 0%,
+    rgb(12, 73, 187) 100%
+  ); */
+  background: radial-gradient(
+      ellipse at bottom,
+      rgb(83, 173, 241) 0%,
+      transparent
+    ),
+    radial-gradient(ellipse at top, rgb(12, 73, 187) 100%, transparent);
+}
